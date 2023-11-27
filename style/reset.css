@@ -8,7 +8,7 @@
     border: 0;
     background: transparent;
 }
-.a{
+.card-left-bottom__mark{
     text-decoration: none;
     color: black;
 }
@@ -30,6 +30,6 @@
 .ul,.ol{
     
 }
-.li{
+.card-left-servises__name{
     list-style: none;
 }

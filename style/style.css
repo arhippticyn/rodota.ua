@@ -1,41 +1,101 @@
 @import '/style/reset.css';
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .page-wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .card-wrapper {
 }
 .container {
 }
+.card-afisha {
+}
+.card-afisha__img {
+}
 .card {
+    width: 750px;
+    height: 170px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 .card-left {
+    padding-left: 30px;
 }
 .card-left__title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .card-left-salary {
+    margin-top: 5px;
+    margin-left: 10px;
 }
 .card-left-salary__grn {
+    font-size: 19px;
+    font-weight: 500;
 }
 .card-left-salary__eur {
+    font-size: 19px;
+    margin-left: 10px;
+    font-weight: 400;
 }
 .card-left__company {
+    margin-right: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.card-left__where{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .card-left-servises {
+    width: 710px;
+    display: flex;
+    margin-top: 10px;
 }
 .card-left-servises__name {
+    border: 1px solid black;
+    width: 80px;
+    margin-left: 10px;
 }
 .card-left-bottom {
-}
-.card-left-bottom__icon {
+    display: flex;
+    margin-top: 8px;
 }
 .card-left-bottom__mark {
+    color: red;
+    font-size: 16px;
+}
+.card-left-bottom__people {
+    width: 40px;
+    height: 20px;
 }
 .card-left-bottom__star {
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
 }
 .card-left-bottom__dislike {
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
 }
 .card-right {
+   margin-left: -109px;
+
 }
 .card-right__logo {
+    width: 120px;
+    height: 100px;
 }
 .card-right__ago {
+    opacity: 0.5;
+    margin-top: 45px;
 }
